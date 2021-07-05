@@ -1,30 +1,27 @@
-import { NgModule } from '@angular/core';
+import { GuestComponentComponent } from './Register/guest-component/guest-component.component';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './Register/guest.component';
 import { FilterscreenComponent } from './filterscreen/filterscreen.component';
 
 const routes: Routes = [
   {
-    path: '', 
-    redirectTo: 'home', 
+    path: '',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
     path: 'home',
     component: HomeComponent
   },
+
   {
-    path: 'Register/guest-component', 
-    component: RegisterComponent
-  },
-  {
-    path: 'login', 
+    path: 'login',
     component: LoginComponent
   },
   {
-    path: 'filterscreen', 
+    path: 'filterscreen',
     component: FilterscreenComponent
   }
 ];
