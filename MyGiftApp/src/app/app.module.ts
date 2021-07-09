@@ -9,7 +9,6 @@ import { GuestComponent } from './guest/guest.component';
   declarations: [
     AppComponent,
     GuestComponent,
-    GuestComponent
   ],
   imports: [
     BrowserModule,
