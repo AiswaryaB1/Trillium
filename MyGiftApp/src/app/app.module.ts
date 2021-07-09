@@ -8,7 +8,6 @@ import { GuestComponent } from './guest/guest.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GuestComponent,
   ],
   imports: [
     BrowserModule,
