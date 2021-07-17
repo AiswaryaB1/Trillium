@@ -6,6 +6,7 @@ import { LoginComponent } from './login/login.component';
 import { GuestComponent } from './guest/guest.component';
 import { FilterscreenComponent } from './filterscreen/filterscreen.component';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -29,6 +30,8 @@ const routes: Routes = [
     path: 'filterscreen',
     component: FilterscreenComponent
   }
+  
+
 ];
 
 @NgModule({
