@@ -1,4 +1,3 @@
-import { GuestComponentComponent } from './Register/guest-component/guest-component.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes} from '@angular/router';
 import { HomeComponent } from './home/home.component';
@@ -9,9 +8,9 @@ import { FilterscreenComponent } from './filterscreen/filterscreen.component';
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
+     path: '',
+     redirectTo: 'home',
+     pathMatch: 'full'
   },
   {
     path: 'home',
@@ -23,14 +22,13 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'guest', 
+    path: 'guest',
     component: GuestComponent
   },
   {
     path: 'filterscreen',
     component: FilterscreenComponent
   }
-  
 
 ];
 

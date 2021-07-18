@@ -1,36 +1,36 @@
 img{
-    width :100%;
-    height:100%;
-    
-    pointer-events:none ;
-    position: absolute;
-    z-index:-1;
- }
- 
- .continue button{
-    font-size: 18px;
-    font-weight:300px;
-    margin:10px 0;
-    padding :5px 5px 5px 5px;
-    width :10%
- }
- 
- .relative2 select{
-    font-size: 18px;
-    font-weight:300px;
-    margin:9px 0;
-    padding :5px 5px 5px 5px;
-    width :11% ;
-    font-weight: bold;
-    
-      
- }
- .relative1 select{
-    font-size: 18px;
-    font-weight:300px;
-    margin:9px 0;
-    padding :5px 5px 5px 5px;
-    width :17%;
-    font-weight: bold;
-      
- }
+  width :100%;
+  height:100%;
+
+  pointer-events:none ;
+  position: absolute;
+  z-index:-1;
+}
+
+.continue button{
+  font-size: 18px;
+  font-weight:300px;
+  margin:10px 0;
+  padding :5px 5px 5px 5px;
+  width :10%
+}
+
+.relative2 select{
+  font-size: 18px;
+  font-weight:300px;
+  margin:9px 0;
+  padding :5px 5px 5px 5px;
+  width :11% ;
+  font-weight: bold;
+
+
+}
+.relative1 select{
+  font-size: 18px;
+  font-weight:300px;
+  margin:9px 0;
+  padding :5px 5px 5px 5px;
+  width :17%;
+  font-weight: bold;
+
+}
