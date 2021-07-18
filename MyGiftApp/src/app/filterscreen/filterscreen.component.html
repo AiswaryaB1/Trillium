@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div.relative1{
+   position: relative;
+   top :100px;
+   left:200px;
+   text-align:left;
+   font-family:"Brush Sript",cursive;
+   font-size:20px ;
+   font-weight:bold;
+ }
+ div.relative2{
+   position: relative;
+   top :90px;
+   left:200px;
+   text-align:left;
+   font-family:"Brush Sript",cursive;
+   font-size:20px ;
+   font-weight:bold;
+ }
+ 
+ div.continue{
+   position: relative;
+   top :130px;
+   left:300px;
+ }
+</style>
+</head>
+<body>
+  
+ <img src="assets/Images/1.png" alt="">
+  
+  <form>
+   <div class ="relative1">
+       <p>Category : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <select name="category" size="1">
+          <option value="Birthday gifts" selected>Birthday gifts
+          <option value="Festival gifts">Festival gifts
+          <option value="Anniversary gifts">Anniversary gifts
+       </select>
+       <br>
+      
+   </div>
+   <div class ="relative2">
+       <p>Age : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <select name="age" size="1">
+          <option value="Kids" selected>0-20
+          <option value="Adults">20-40
+          <option value="Aged">Above 40
+       </select>
+       <br>
+       
+    </div>
+    <div class ="relative2">
+      <p> Gender : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name ="gender" value= "Female">female
+      <input type="radio" name ="gender" value= "male">male
+      <br>
+      
+   </div>
+    <div class ="relative2">
+        <p> Expected range : 
+        <select name="money" size="1">
+          <option value=" 1k" selected>below 1k
+          <option value="Adults">1k-2k
+          <option value="Aged">Above 3k
+       </select>
+     </div> 
+     <div class= "continue" >
+       <button type= "submit">Skip</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <button type= "submit">Continue</button>
+     </div> 
+    
+  </form>
+</body>
+
+
+<html>
