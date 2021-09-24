@@ -7,6 +7,15 @@ img{
     top: 0;
     left: 0;
 }
+.HB{
+  font-family: "Dancing Script",cursive;
+  font-size: 30px;
+  font-weight: bold;
+   top: 22%;
+   left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+ }
   .relative
   {
     width: 100%;
