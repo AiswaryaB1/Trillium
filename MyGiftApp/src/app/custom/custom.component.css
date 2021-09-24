@@ -12,7 +12,7 @@
     font-size: 20px;
     font-weight: bold;
      top: 10%;
-     left: 12%;
+     left: 10%;
     transform: translate(-50%,-50%);
     position: absolute;
    }
@@ -30,7 +30,7 @@
 .Accessories{
   position: relative;
   top :200px;
-  left:60%;
+  left:58%;
   text-align:left;
   font-family:"Dancing Sript",cursive;
   font-size:20px;
@@ -51,7 +51,7 @@
   display: inline-block;
   position: relative;
   top :200px;
-  left:60%;
+  left:58%;
   text-align:left;
   font-family:"Dancing Sript",cursive;
   font-size:20px;
@@ -105,7 +105,7 @@ outline: none;
 .Mugs{
   position: relative;
   top :200px;
-  left:60%;
+  left:58%;
   text-align:left;
   font-family:"Dancing Sript",cursive;
   font-size:20px;
@@ -125,7 +125,7 @@ outline: none;
 .Cushions{
   position: relative;
   top :200px;
-  left:60%;
+  left:58%;
   text-align:left;
   font-family:"Dancing Sript",cursive;
   font-size:20px;
@@ -145,7 +145,7 @@ outline: none;
 .Frames{
   position: relative;
   top :200px;
-  left:60%;
+  left:58%;
   text-align:left;
   font-family:"Dancing Sript",cursive;
   font-size:20px;
@@ -166,7 +166,7 @@ outline: none;
 .Wrapping {
   position: relative;
   top :200px;
-  left:60%;
+  left:58%;
   text-align:left;
   font-family:"Dancing Sript",cursive;
   font-size:20px;
