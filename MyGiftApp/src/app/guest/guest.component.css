@@ -7,6 +7,15 @@ img{
     top: 0;
     left: 0;
   }
+  .HB{
+    font-family: "Dancing Script",cursive;
+    font-size: 30px;
+    font-weight: bold;
+     top: 21%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   }
   .registerpg {
      width: 350px;
      top: 50%;
