@@ -47,7 +47,8 @@
   border-color:maroon;
   background-color:oldlace;
 }
-.Stationary{
+.Quantity{
+  display: inline-block;
   position: relative;
   top :200px;
   left:60%;
@@ -55,17 +56,51 @@
   font-family:"Dancing Sript",cursive;
   font-size:20px;
   font-weight:bold;
+  color: black;
 }
-.Stationary select{
-  font-size: 15px;
-  font-weight:300px;
-  margin:9px 0;
-  padding :5px 5px 5px 5px;
-  width :15% ;
-  font-weight: bold;
-  border-radius: 5px;
-  border-color:maroon;
-  background-color:oldlace;
+.Quantity .input-text.qty {
+  width: 35px;
+  height: 39px;
+  padding: 0 5px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #efefef;
+ }
+
+ .Quantity.buttons_added {
+  text-align: left;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: top; }
+
+ .Quantity.buttons_added input {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  box-shadow: none;
+ }
+
+ .Quantity.buttons_added .minus,
+ .Quantity.buttons_added .plus {
+  padding: 7px 10px 8px;
+  height: 41px;
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  cursor:pointer;}
+
+ .Quantity.buttons_added .minus {
+  border-right: 0; }
+
+ .Quantity.buttons_added .plus {
+  border-left: 0; }
+
+ .Quantity.buttons_added .minus:hover,
+ .Quantity.buttons_added .plus:hover {
+  background: #eeeeee; }
+
+.Quantity.buttons_added .minus:focus,
+.Quantity.buttons_added .plus:focus {
+outline: none;
 }
 .Mugs{
   position: relative;
@@ -127,6 +162,26 @@
   border-color:maroon;
   background-color:oldlace;
 
+}
+.Wrapping {
+  position: relative;
+  top :200px;
+  left:60%;
+  text-align:left;
+  font-family:"Dancing Sript",cursive;
+  font-size:20px;
+  font-weight:bold;
+}
+.Wrapping select{
+  font-size: 15px;
+  font-weight:300px;
+  margin:9px 0;
+  padding :5px 5px 5px 5px;
+  width :16% ;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color:maroon;
+  background-color:oldlace;
 }
 .proceed_order button{
   position: relative;
