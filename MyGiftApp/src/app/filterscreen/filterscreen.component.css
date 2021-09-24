@@ -3,8 +3,10 @@ img{
   height:100%;
 
   pointer-events:none ;
-  position: absolute;
+  position: fixed;
   z-index:-1;
+  top: 0;
+  left: 0;
 }
 
 .continue button{
