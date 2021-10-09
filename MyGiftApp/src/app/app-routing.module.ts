@@ -7,6 +7,7 @@ import { FilterscreenComponent } from './filterscreen/filterscreen.component';
 import { MainscreenComponent } from './mainscreen/mainscreen.component';
 import { CustomComponent } from './custom/custom.component';
 
+
 const routes: Routes = [
   {
      path: '',

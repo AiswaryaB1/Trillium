@@ -7,6 +7,7 @@ import { GuestComponent } from './guest/guest.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { FilterscreenComponent} from './filterscreen/filterscreen.component';
+import { MainscreenComponent } from './mainscreen/mainscreen.component';
 import { CustomComponent } from './custom/custom.component';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { CustomComponent } from './custom/custom.component';
     HomeComponent,
     GuestComponent,
     FilterscreenComponent,
+    MainscreenComponent,
     CustomComponent
    ],
   imports: [
