@@ -31,7 +31,7 @@ const routes: Routes = [
     component: FilterscreenComponent
   },
   {
-    path: 'mainscreen',
+    path: 'search',
     component: MainscreenComponent
   }
 
