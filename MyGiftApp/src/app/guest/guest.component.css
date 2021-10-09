@@ -1,14 +1,23 @@
 img{
     width: 100%;
     height: 100%;
-    pointer-events: none;  
+    pointer-events: none;
     position: fixed;
-    top: 0;
-    left: 0 ; 
     z-index: -1;
+    top: 0;
+    left: 0;
   }
-  .registerpg {  
-     width: 350px;  
+  .HB{
+    font-family: "Dancing Script",cursive;
+    font-size: 30px;
+    font-weight: bold;
+     top: 21%;
+     left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   }
+  .registerpg {
+     width: 350px;
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);

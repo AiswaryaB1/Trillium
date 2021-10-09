@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+   </head>
+   <body>
+    <div class="HB">
+      <h1>Happy Baskets</h1>
+    </div>
+    <div class="Custom">
+      <h1>Customize your gift preferences!</h1>
+    </div>
+<img class="CustomScreen" src="assets/Images/Custom.png" alt="Custom page">
+<form>
+  <div class="Accessories">
+    <p>Engraved Accessories : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <select name="accessories" size="1">
+        <option value="">
+        <option value="Pendents">Pendents
+        <option value="Bracelets">Bracelets
+          <option value="Watches">Watches
+            <option value="Keychain">Keychain
+      </select>
+      <br>
+  </div>
+  <div class="Frames">
+    <p>Photo frames: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <select name="Frames" size="1">
+        <option value="Pendents">
+        <option value="Wooden frame">Wooden frame
+        <option value="Glass frame">Glass frame
+        <option value="Canvas frame">Canvas frame
+        </select>
+    </div>
+    <div class="Mugs">
+      <p>Mugs : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="Mugs" size="1">
+          <option value="">
+          <option value="Quote Printed Mugs">Quote printed mugs
+          <option value="Picture mugs">Photo printed mugs
+          <option value="Heat induced printed mugs">Heat induced printed mugs
+        </select>
+        <br>
+      </div>
+      <div class="Cushions">
+        <p>Cushions : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <select name="Cushions" size="1">
+            <option value="">
+            <option value="Quote Printed Cushions">Quote printed cushions
+            <option value="Picture cushions">Photo printed cushions
+              </select>
+      </div>
+      <div class="Wrapping">
+        <p>Gift Wrap : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <select name="Wrapping" size="1">
+            <option value="Everyday Gift Wrap">Everyday Gift Wrap
+            <option value="Floral Gift Wrap">Floral Gift Wrap
+            <option value="Cellophane Gift Wrap">Cellophane Gift Wrap
+            <option value="Polka Dot Gift Wrap">Polka Dot Gift Wrap
+            <option value="Metallic Gift Wrap">Metallic Gift Wrap
+            </select>
+        </div>
+      <div class="Quantity">
+        <p>Quantity : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+            <br>
+        </div>
+
+  </form>
+
+<div class="proceed_order">
+  <nav>
+    <a routerLink="/order">
+  <button type="button">Proceed to order</button>
+  </a>
+</nav>
+</div>
+</body>
+</html>
